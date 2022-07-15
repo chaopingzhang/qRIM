@@ -10,7 +10,7 @@ For the RIM image reconstruction network, please refer to https://github.com/wdi
 
 
 ## Data preprocessing
-The raw data is in NIfTI format. It includes 3D complex images, coil sensitivity, and brain mask (needed in constraining the loss in training). The data should be converted into 2D slices and saved in h5 format. Please run preprocess.dataprocess.py with the datapath modified accordingly. Note that in the paper, the RIM image reconstruction + least squares fitting is performed as initialization of the parameters for qRIM. The qRIM code can process the least squares fitting, however, the reconstructed images is expected to be provided for data loading.
+The raw data is in NIfTI format. It includes 3D complex images, coil sensitivity, and brain mask (needed in constraining the loss in training). The data should be converted into 2D slices and saved in h5 format. Please run preprocess.dataprocess.py with the datapath modified accordingly. Note that in the paper, the RIM image reconstruction + least squares fitting is performed as initialization of the parameters for qRIM. The qRIM code can process the least squares fitting, however, the reconstructed images are expected to be provided for data loading.
 
 The link to the open source raw data: https://doi.org/10.34894/IHZGQM.
 ## Run
