@@ -2,6 +2,7 @@
 qRIM: quantitative Recurrent Inference Machine 
 
 Pytorch Code for the paper:
+
 Chaoping Zhang, Dimitrios Karkalousos, Pierre-Louis Bazin, Bram F. Coolen, Hugo Vrenken, Jan-Jakob Sonke, Birte U. Forstmann, Dirk H.J. Poot, Matthan W.A. Caan.
 A unified model for reconstruction and R2* mapping of accelerated 7T data using the quantitative recurrent inference machine. NeuroImage, Volume 264, 2022, 119680, ISSN 1053-8119, https://doi.org/10.1016/j.neuroimage.2022.119680.
 
